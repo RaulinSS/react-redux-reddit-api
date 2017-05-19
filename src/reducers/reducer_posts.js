@@ -28,8 +28,7 @@ function posts(state = {
   }
 }
 
-function postsBySubreddit(state = { }, action) { 
-    debugger;
+function postsBySubreddit(state = { }, action) {
   switch (action.type) {    
     case INVALIDATE_SUBREDDIT:
     case RECEIVE_POSTS:
